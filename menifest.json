@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "description": "Quick Launch Jaspal Media",
+  "version": "1.0.0",
+  "icons": {"200": "icon-128.png"},
+  "browser_action":{
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "permissions":["activeTab"]  
+}
